@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.ts",
-    "start_pg": "nodemon ./src/hacker_rank/Lc26RemoveDuplicatesFromSortedArray.ts",
-    "Lc1796SecondLargestDigitInAString": "nodemon ./src/hacker_rank/Lc1796SecondLargestDigitInAString.ts",
+    "start_pg": "nodemon src/hacker_rank/leetcode/Lc26RemoveDuplicatesFromSortedArray.ts",
+    "Lc1796SecondLargestDigitInAString": "nodemon src/hacker_rank/leetcode/Lc1796SecondLargestDigitInAString.ts",
     "ValidateSubsequence": "nodemon ./src/hacker_rank/algoexpert/ValidateSubsequence.ts"
   },
   "keywords": [],
