@@ -1,0 +1,27 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "start_pg": "nodemon ./src/hacker_rank/Lc26RemoveDuplicatesFromSortedArray.ts",
+    "Lc1796SecondLargestDigitInAString": "nodemon ./src/hacker_rank/Lc1796SecondLargestDigitInAString.ts",
+    "ValidateSubsequence": "nodemon ./src/hacker_rank/algoexpert/ValidateSubsequence.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/luxon": "^3.3.0",
+    "@types/node": "^18.7.15",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "luxon": "^3.2.1"
+  }
+}
